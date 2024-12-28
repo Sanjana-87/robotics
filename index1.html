@@ -1,0 +1,99 @@
+HTML CODE 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official Website of The Robotics Club, VIT Chennai">
+  <title>Robotics Club | VIT Chennai</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body style="background-image:url('download.jpg');background-size:cover;background-repeat:no-repeat;">
+  <header>
+    <nav>
+        <img src="image.jpg" alt="logo" width="1200px" height="100px">;
+      <p style="font-size:300%;text-align:center;color:beige"><b>ROBOTICS CLUB</b></p>
+      <ul class="nav-links">
+        <li><a href="#about"  style="text-size:300%;text-align:center" >About Us</a></li>
+        <li><a href="#events" style="text-size:300%;text-align:center" >Events</a></li>
+        <li><a href="#projects" style="text-size:300%;text-align:center" >Projects</a></li>
+        <li><a href="#contact " style="text-size:300%;text-align:center" >Contact</a></li>
+      </ul>
+      
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <h1 style="color:greenyellow;background-color:black">Welcome to The Robotics Club</h1>
+      <p style="color:aqua;size:200%;background-color:brown"><b>Join us in a journey of innovation and technology</b></p>
+      <p style="color:blanchedalmond;background-color:black">Innovate. Build. Inspire.</p>
+      <a href="#about" class="btn" ><p style="color:blanchedalmond; background-color:black">Learn More</p></a>
+    </section>
+
+    <section id="about" class="about">
+      <h2 style="color:antiquewhite;font-size:200%"><u>About Us</u></h2>
+      <img src="aboutus.jpg";align:center>
+      <p style="color:azure;font-size:150%">The Robotics Club at VIT Chennai is a vibrant community of tech enthusiasts dedicated to exploring, innovating, and mastering the field of robotics. Our mission is to provide hands-on learning, foster collaboration, and drive creativity to push the boundaries of technology.</p>
+    </section>
+
+
+    <section id="events" class="events">
+      <h2>Upcoming Events</h2>
+      <img src="im.jpg">
+      <div class="event-list">
+        <div class="event">
+          <h3 style="color:antiquewhite">Workshop: Building Your First Robot</h3>
+          <p style="background-color:white"><b>Date: 15th Jan 2025</b></p>
+        </div>
+        <div class="event">
+          <h1 style="color:beige">Hackathon: Code & Construct</h3>
+          <p style="background-color:white"><b>Date: 25th Jan 2025</b></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2 style="color:antiquewhite;text-size:250%">Our Projects</h2>
+      <div class="project-gallery">
+        <div class="project-card">
+          <h3>Robotic Arm</h3>
+          <p>An innovative robotic arm controlled via sensors.</p>
+        </div>
+        <div class="project-card">
+          <h3>Line Follower Robot</h3>
+          <p>A robot designed to follow lines on the floor with precision.</p>
+        </div>
+      </div>
+      <h1 style="color:aqua">Welcome to Robotics Projects</h1>
+      <img src="arm.jpg" width="30%">
+    <p style="color:bisque">Click on a project to explore its features:</p>
+    <button onclick="navigateTo('https://roboticsandenergy.com/projects/arduino-projects/robotic-arm/')">Robotic Arm</button>
+    <button onclick="navigateTo('https://robu.in/how-to-make-a-line-follower-robot-using-arduino-connection-code/')">Line Follower Robot</button>
+
+    <script>
+        function navigateTo(url) {
+            window.location.href = url;
+        }
+    </script>
+    
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <img src="about.jpg">
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy;  Robotics Club, VIT Chennai. All rights reserved.</p>
+  </footer>
+</body>
+</html>
